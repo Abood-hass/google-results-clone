@@ -125,6 +125,7 @@ header>div>div:nth-of-type(3) {
 }
 
 /* body style */
+
 body>div {
     margin: 10px 195px;
 }
@@ -333,6 +334,49 @@ body>div>div>div>* {
 .twitter-result>div>img {
     width: 200px;
     border-radius: 10px;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    box-sizing: border-box;
+    color: #848589;
+}
+
+.footer>div {
+    box-sizing: border-box;
+    background-color: #171717;
+    height: 50%;
+    width: 100%;
+    padding: 12px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer>div>div {
+    width: 100%;
+    background-color: inherit;
+}
+
+.footer>div>div>span {
+    cursor: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #171717;
+}
+
+.footer>div>div>a {
+    border: none;
+    color: #848589;
+    background-color: #171717;
+}
+
+.footer>div>div>a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
 
 @media screen and (max-width:1323px) {
